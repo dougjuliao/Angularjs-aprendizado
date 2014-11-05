@@ -5,6 +5,6 @@
 	});
 	var titPage = {
 		nome: 'Aprendendo Angularjs',
-		desc: 'Iniciando aulas em angularjs'
+		desc: 'Iniciando aulas em angularjs abaixo encontra-se um menu com os exemplos que serão mostrados... clique :)'
 	};
 })();

@@ -11,12 +11,23 @@
 </head>
 <body>
 	<div id="container">
-		<header ng-controller="titulo as geral">
-			<h1> {{geral.title.nome}}</h1>
-			<h3> {{geral.title.desc}} </h3>
+		<header>
+			<div class="title" ng-controller="titulo as geral">
+				<h1> {{geral.title.nome}}</h1>
+				<p> {{geral.title.desc}} </p>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#">section 1</a></li>
+					<li><a href="#">section 2</a></li>
+				</ul>
+			</nav>
 		</header>
 		<section>
-			
+			seção 1
+		</section>
+		<section>
+			seção 2
 		</section>
 		<footer>
 			
@@ -25,5 +36,7 @@
     <!-- SCRIPTS JS-->
 	<script type="text/javascript" src="js/angular.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
