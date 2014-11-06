@@ -47,3 +47,9 @@ section{
 	padding:20px;
 	width:100%;
 }
+.images{
+	display:inline-block;
+}
+.images-li{
+	display:inline;
+}
