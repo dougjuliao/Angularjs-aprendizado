@@ -1,3 +1,49 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	box-sizing:border-box;
+}
 #container{
-	padding:10px;
+	padding:0;
+}
+a:hover,a:focus{
+	text-decoration:none;
+}
+/*** HEADER ***/
+header{
+	background: linear-gradient(#fff 11%,#2FDF52 200%);
+}
+.title{
+	margin:0 auto;
+	width:70%;
+}
+nav{
+	margin:0 auto;
+	width:70%;
+}
+.menu{
+	position:relative;
+	display:inline-block;
+	margin-top: 10px;
+}
+.menu li{
+	display:inline;
+}
+.menu li a{
+	padding:6px;
+	color:#333;
+	background-color:#fff;
+}
+.menu li a:hover{
+	color:#fff;
+	background-color:#333;
+}
+.classeAtivo a{
+	color:#fff !important;
+	background-color:#333 !important;
+}
+/*** SECTION ****/
+section{
+	padding:20px;
+	width:100%;
 }

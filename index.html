@@ -17,16 +17,16 @@
 				<p> {{geral.title.desc}} </p>
 			</div>
 			<nav>
-				<ul class="menu">
-					<li><a href="#">section 1</a></li>
-					<li><a href="#">section 2</a></li>
+				<ul class="menu" ng-init="section = 1">
+					<li ng-class="{classeAtivo:section === 1}"><a href="#" ng-click="section= 1">section 1</a></li>
+					<li ng-class="{classeAtivo:section === 2}"><a href="#" ng-click="section= 2 ">section 2</a></li>
 				</ul>
 			</nav>
 		</header>
-		<section>
+		<section ng-show="section === 1">
 			seção 1
 		</section>
-		<section>
+		<section ng-show="section === 2">
 			seção 2
 		</section>
 		<footer>
