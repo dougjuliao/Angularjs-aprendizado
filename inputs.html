@@ -1,0 +1,13 @@
+<section ng-controller="contentSection as geral">
+	<span>Digite alguma coisa aqui :)</span><br>
+	<label><strong>1-</strong><input type="text" ng-model="textoInput"></label>
+	<p><strong>1- Seu texto:&nbsp;</strong>{{geral.content.texto(textoInput)}}</p>
+	<p>
+		Esse input está com a diretiva <a href="https://docs.angularjs.org/api/ng/directive/ngModel" target="_blank"><em>ng-model</em></a> com ela eu consigo adicionar todo o texto digitado em um input, em qualquer lugar em tempo real.
+	</p>
+	<hr>
+	<span>Digite alguma coisa aqui :)</span><br>
+	<label><strong>2-</strong><input type="text" ng-model="numInput"></label>
+	<p><strong>2- Seu texto:</strong>{{geral.content.numero(numInput)}}</p>
+	<p>Ainda utilizando o ng-model</p>
+</section>

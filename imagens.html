@@ -1,0 +1,15 @@
+<section ng-controller="contentSection as geral">
+	<div class="title-section">
+		<h2>Adicionando Imagem</h2>
+	</div>
+	<div class="content-section">
+		<ul class="images">
+			<li class="images-li" ng-repeat="images in geral.content.image">
+				<img width="150" ng-src="{{images}}">
+			</li>
+		</ul>
+		<p>
+			Imagens adicionadas com a diretiva <a target="_blank" href="https://docs.angularjs.org/api/ng/directive/ngSrc"><em>ng-src</em></a>  e utilizando um <a target="_blank" href="https://docs.angularjs.org/api/ng/directive/ngRepeat"><em>ng-repeat</em></a> para percorrer o array image.
+		</p>
+	</div>
+</section>
